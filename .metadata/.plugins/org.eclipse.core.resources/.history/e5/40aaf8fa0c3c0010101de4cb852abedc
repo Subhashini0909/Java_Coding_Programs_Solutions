@@ -1,0 +1,21 @@
+package Java_Assignments;
+
+public class Rectangle_OR_Square {
+
+	public static void main(String[] args) 
+	{
+		int l = 10;
+		int b = 20;
+		
+		if(l!=b)
+		{
+			System.out.println("This is Rectangle");
+		}
+		if(l==b)
+		{
+			System.out.println("This is Square");
+		}
+
+	}
+
+}
