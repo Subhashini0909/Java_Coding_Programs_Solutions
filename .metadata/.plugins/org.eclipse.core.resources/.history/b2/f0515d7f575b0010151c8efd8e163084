@@ -1,0 +1,10 @@
+package Java_Self_Practice;
+
+public class MultiplyBy5inReverse_Skip20and10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

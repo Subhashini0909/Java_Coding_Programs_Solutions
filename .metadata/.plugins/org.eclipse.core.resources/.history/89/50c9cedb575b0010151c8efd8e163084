@@ -1,0 +1,19 @@
+package Java_Self_Practice;
+
+public class DivisibleBy5orNot {
+
+	public static void main(String[] args) 
+	{
+		int n = 10;
+		
+		if(n%5==0)
+		{
+			System.out.println("Divisible");
+		}
+		
+		else
+			System.out.println("Not divisible");
+
+	}
+
+}
