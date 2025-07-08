@@ -14,20 +14,20 @@ public class FlightChecks {
 		String Yes_No = sc.next();
 		Thread.sleep(3000);
 		
-//		if(Yes_No.equalsIgnoreCase("yes"))
-//		{
-//			System.out.println("Enjoy your fight");
-//		}
-//		else if(Yes_No.equalsIgnoreCase("No"))
-//		{
-//			System.out.println("Please proceed to security checks");
-//		}
-		
-		if(Yes_No.equalsIgnoreCase("no"))
+		if(Yes_No.equalsIgnoreCase("yes"))
+		{
+			System.out.println("Enjoy your fight");
+		}
+		else if(Yes_No.equalsIgnoreCase("No"))
 		{
 			System.out.println("Please proceed to security checks");
 		}
-		System.out.println("Enjoy your fight");
+		
+//		if(Yes_No.equalsIgnoreCase("no"))
+//		{
+//			System.out.println("Please proceed to security checks");
+//		}
+//		System.out.println("Enjoy your fight");
 	}
 
 }
