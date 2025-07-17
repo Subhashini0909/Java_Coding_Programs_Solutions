@@ -1,6 +1,6 @@
 package Java_Self_Practice;
 
-public class or_NestedLoop_SquareSTARwithSplit_5Line_PATTERN {
+public class For_NestedLoop_SquareSTARwithSplit_5Line_PATTERN {
 
 	public static void main(String[] args) 
 	{
