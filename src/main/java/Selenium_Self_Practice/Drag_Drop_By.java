@@ -23,6 +23,8 @@ public class Drag_Drop_By {
 		WebElement scr = driver.findElement(By.id("draggable-nonvalid"));
 		
 		builder.dragAndDropBy(scr, 100, 50).perform();
+		
+		driver.quit();
 
 	}
 
