@@ -22,7 +22,8 @@ public class Mouse_Hover {
 		
 		Actions builder = new Actions(driver);
 		builder.moveToElement(Fashion).build().perform();
-
+		
+		driver.quit();
 	}
 
 }
