@@ -11,12 +11,14 @@ public class Date_Picker {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://demo.guru99.com/test/");
+		driver.get("https://jqueryui.com/datepicker/");
 		
-		WebElement date = driver.findElement(By.xpath("//input[@type='datetime-local']"));
 		
+		driver.switchTo().frame(0);
+		WebElement date = driver.findElement(By.id("datepicker"));
 		date.click();
-		date.sendKeys("0909200010230PM");
+		
+		date.sendKeys("09/09/2000");
 		
 
 	}
