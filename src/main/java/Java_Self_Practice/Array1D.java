@@ -1,6 +1,6 @@
 package Java_Self_Practice;
 
-public class Array_Declaration {
+public class Array1D {
 
 	public static void main(String[] args) {
 		
