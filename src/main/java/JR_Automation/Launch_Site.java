@@ -18,7 +18,7 @@ public class Launch_Site {
 		
 		boolean pageLoad = false;
 		
-		while(!pageLoad &)
+		//while(!pageLoad &)
 
 	}
 
