@@ -39,6 +39,16 @@ public class Array2D {
 			}
 			System.out.println();
 		}
+		System.out.println("For each loop");
+		//FOR EACH
+		for(int c[] : a)
+		{
+			for(int d:c)
+			{
+				System.out.print(d);
+			}
+			System.out.println();
+		}
 
 	}
 
